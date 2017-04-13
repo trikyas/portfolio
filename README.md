@@ -1,4 +1,9 @@
-Welcome to my Portfolio.
+Portfolio
 
-By
-Chad Trikyas Mooney
+This is my "Portfolio Template" 
+
+Do what you will with this.
+
+Enjoy
+
+-- Chad Trikyas Mooney
