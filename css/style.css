@@ -34,14 +34,42 @@ body {
   background-attachment: fixed;
   font-family: 'Anonymous Pro';
 }
-h1, h2, .bio {
+h1, h2, h3, .bio, .nav-link {
   color: #fff;
+}
+.nav-link {
+  text-decoration: none;
+}
+.nav {
+  position: fixed;
+  margin-bottom: 0;
+}
+li {
+  width: 100px;
+  display: inline-block;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 h1 {
   font-size: 50px;
 }
 h2 {
   font-size: 18px;
+}
+h3 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: normal;
+  margin-top: 100px;
+}
+h4 {
+  text-align: center;
+  font-size: 24px;
 }
 .me {
   height: 150px;
@@ -50,7 +78,7 @@ h2 {
 }
 .about {
   width: 400px;
-  margin: 50px auto;
+  margin: 210px auto;
   text-align: center;
 }
 .grey {
@@ -68,4 +96,47 @@ h2 {
   padding: 5px;
   border: 1px solid #eee;
   border-radius: 5px;
+}
+.about-container {
+  background: url('img/codeBaby.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+}
+.box {
+  float: left;
+  background-color: #B4DA55;
+  width: 42.5%;
+  margin-left: 5%;
+  margin-top: 80px;
+  padding: 2vh;
+}
+.clear {
+  clear: both;
+}
+.full-width {
+  width: 100%;
+}
+.skills-and-tools {
+  max-width: 400px;
+  margin: 40px auto;
+}
+.icons {
+  text-align: center;
+  margin: 30px auto;
+}
+.contact-info {
+  color: white;
+  font-size: 13px;
+  margin-top: 30px;
+}
+.contact-link {
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+}
+.hire-me {
+  border: 1px solid #333555;
 }
