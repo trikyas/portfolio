@@ -34,6 +34,12 @@ body {
   background-attachment: fixed;
   font-family: 'Anonymous Pro';
 }
+header {
+width: 100vw;
+height: 9vh;
+background-color: rgba(0, 0, 0, 0.5);
+position: fixed;
+}
 h1, h2, h3, .bio, .nav-link {
   color: #fff;
 }
@@ -102,11 +108,9 @@ h4 {
   width: 150px;
   border-radius: 5px;
 }
-.github {
-  text-align: center;
-}
-.js-calendar-graph-svg {
-  background-color: #aaa;
+img.github {
+  margin-left: 25%;
+  background-color: #b177;
   padding: 5px;
   border: 1px solid #eee;
   border-radius: 5px;
@@ -141,7 +145,6 @@ h4 {
   text-align: center;
   margin: 30px auto;
   background-color: #B4DA55;
-  
 }
 .contact-info {
   color: white;
@@ -163,6 +166,6 @@ height: 150px;
 text-align: center;
 }
 .space {
-height: 50px;
+height: 150px;
 width: 100vw;
 }
