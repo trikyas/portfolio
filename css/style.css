@@ -1,0 +1,71 @@
+/* anonymous-pro-regular - latin */
+@font-face {
+  font-family: 'Anonymous Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/anonymous-pro-v9-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Anonymous Pro'), local('AnonymousPro'),
+       url('../fonts/anonymous-pro-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/anonymous-pro-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/anonymous-pro-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/anonymous-pro-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/anonymous-pro-v9-latin-regular.svg#AnonymousPro') format('svg'); /* Legacy iOS */
+}
+/* anonymous-pro-700 - latin */
+@font-face {
+  font-family: 'Anonymous Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/anonymous-pro-v9-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Anonymous Pro Bold'), local('AnonymousPro-Bold'),
+       url('../fonts/anonymous-pro-v9-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/anonymous-pro-v9-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/anonymous-pro-v9-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/anonymous-pro-v9-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/anonymous-pro-v9-latin-700.svg#AnonymousPro') format('svg'); /* Legacy iOS */
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  background-image: url('../img/codeBaby.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Anonymous Pro';
+}
+h1, h2, .bio {
+  color: #fff;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 18px;
+}
+.me {
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.about {
+  width: 400px;
+  margin: 50px auto;
+  text-align: center;
+}
+.grey {
+  height: 3px;
+  background: linear-gradient(140deg, #919191 50%, #eee 50% );
+  border: none;
+  width: 150px;
+  border-radius: 5px;
+}
+.github {
+  text-align: center;
+}
+.js-calendar-graph-svg {
+  background-color: #aaa;
+  padding: 5px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
