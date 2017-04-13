@@ -45,15 +45,29 @@ h1, h2, h3, .bio, .nav-link {
   margin-bottom: 0;
 }
 li {
-  width: 100px;
-  display: inline-block;
+  display: inline;
+  list-style: none;
   text-align: center;
   font-size: 12px;
   font-weight: bold;
   margin-top: 30px;
   margin-left: 30px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+}
+li a {
+  float: left;
+  padding: 2vh 3vh;
+}
+.hire-me {
+  border: 1px solid #333555;
+}
+li a:hover, li a:focus {
+  color: #333555;
+  background-color: white;
+}
+a.hire-me:hover, a.hire-me:focus {
+  background-color: #333555;
+  color: white;
+  list-style: none;
 }
 h1 {
   font-size: 50px;
@@ -74,7 +88,7 @@ h4 {
 .me {
   height: 150px;
   border-radius: 50%;
-  border: 2px solid #fff;
+  border: 2px solid #333555;
 }
 .about {
   width: 400px;
@@ -126,17 +140,29 @@ h4 {
 .icons {
   text-align: center;
   margin: 30px auto;
+  background-color: #B4DA55;
+  
 }
 .contact-info {
   color: white;
   font-size: 13px;
-  margin-top: 30px;
+  margin: 20px;
 }
 .contact-link {
   color: white;
   font-weight: bold;
   font-size: 13px;
+  background-color: #333555;
+  padding: 1vh 3vh;
+  margin: 5px auto;
 }
-.hire-me {
-  border: 1px solid #333555;
+footer {
+padding: 2vh 0;
+width: 100vw;
+height: 150px;
+text-align: center;
+}
+.space {
+height: 50px;
+width: 100vw;
 }
